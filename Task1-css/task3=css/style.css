@@ -1,0 +1,44 @@
+.container {
+    border: 10px;
+    border-radius: 20px;
+}
+
+.hero {
+    height: 100vh;
+
+    background-image: url("./premium_photo-1673306778968-5aab577a7365.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    
+    color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 8px;
+    max-width: 700px;
+}
+
+.hero h1 {
+    margin: 0 0 1rem;
+    font-size: 3rem;
+}
+
+.hero p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+.button{
+    color: black;
+     
+}
+
