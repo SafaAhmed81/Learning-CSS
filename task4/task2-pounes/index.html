@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<button onclick="toggleMode()">Switch Light/Dark Mode</button>
+
+<div class="card">
+    <div class="badge">New</div>
+    <h3>Iphone Store</h3>
+    <p>This is a simple explore  with a good prices .</p>
+</div>
+
+<ul>
+    <li>iphone 11</li>
+    <li>iphone 12</li>
+    <li>iphone 13</li>
+    <li>iphone 14</li>
+    <li>iphone 15</li>
+</ul>
+
+<div class="quote">
+    Learning never exhausts the mind. It only ignites it.
+</div>
+
+<script>
+function toggleMode() {
+    const root = document.documentElement;
+
+    if (getComputedStyle(root).getPropertyValue('--main-bg') === '#ffffff') {
+        root.style.setProperty('--main-bg', '#222');
+        root.style.setProperty('--main-text', '#ffffff');
+        root.style.setProperty('--card-bg', '#333333');
+    } else {
+        root.style.setProperty('--main-bg', '#ffffff');
+        root.style.setProperty('--main-text', '#222222');
+        root.style.setProperty('--card-bg', '#f4f4f4');
+    }
+}
+</script>
+
+</body>
+</html>
