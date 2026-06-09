@@ -1,0 +1,65 @@
+.contenier {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    background-color: rgb(210, 177, 240);
+    width: 80%;
+    height: 60vh;
+    border-radius: 40px;
+    margin: 100px;
+    gap: 30px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+
+
+.boxs {
+    display: flex;
+    gap: 40px;
+
+}
+
+.Square {
+    width: 150px;
+    height: 200px;
+    border: 5px solid #ff6b6b;
+    border-radius: 0;
+    background-color: #e3f2fd;
+    text-align: center;
+   
+    align-items: center;
+}
+
+.Rounded {
+    width: 200px;
+    height: 200px;
+    border: 6px dashed #007bff;
+    border-radius: 5px;
+    background-color: #e3f2fd;
+    text-align: center;
+    align-items: center;
+
+}
+
+.Circle {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 8px double #007bff;
+    border-radius: 50%;
+    background-color: #e3f2fd;
+    align-items: center;
+}

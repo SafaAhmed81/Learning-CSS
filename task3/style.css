@@ -1,0 +1,45 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    border-radius: 20px solid black;
+}
+
+/* navbar styl */
+.navbar {
+    background-color: #1E3A8A;
+    padding: 15px;
+    height: 100px;
+}
+
+#header{
+  text-align: center;
+}
+/* remove bullets */
+.nav-list {
+    list-style: none;
+    text-align: center;
+    
+}
+
+
+.nav-item {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 8px 15px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+.scroll-box{
+
+    padding-top: 30px;
+    padding-left: 30px;
+}
